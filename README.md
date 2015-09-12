@@ -1,6 +1,9 @@
 # myexit
 
-A barebones Node.js app using [Express 4](http://expressjs.com/) that will tell you the closest Turnpike exit to your home. That way, when someone says "What exit?", you can respond intelligently.
+**_Make New Jersey proud._**
+
+A barebones Node.js app using [Express 4](http://expressjs.com/) that will tell you the closest NJ Turnpike exit to your home. That way, when someone says "What exit?", you can respond intelligently.
+
 
 Points of reference will include:
 

@@ -1,38 +1,18 @@
-# node-js-getting-started
+# myexit
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+**_Make New Jersey proud._**
 
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
+A barebones Node.js app using [Express 4](http://expressjs.com/) that will tell you the closest NJ Turnpike exit to your home. That way, when someone says "What exit?", you can respond intelligently.
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-## Running Locally
+Points of reference will include:
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
++ https://prazjain.wordpress.com/2012/04/19/maps-example-with-google-maps-and-nodejs/
++ https://github.com/moshen/node-googlemaps
++ [Maps API Web Services](https://developers.google.com/maps/documentation/webservices/)
++ [Google Places API](https://developers.google.com/places/)
++ [Google Maps Image API](https://developers.google.com/maps/documentation/imageapis/)
 
-```sh
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
-```
+I'm going to try and hack together something to do this within the structure of Heroku's sample node app, which you can set up for yourself [here](https://devcenter.heroku.com/articles/getting-started-with-nodejs).
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-
-## Deploying to Heroku
-
-```
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-
-## Documentation
-
-For more information about using Node.js on Heroku, see these Dev Center articles:
-
-- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+This is the first time I've ever worked on a web app--we'll see how it turns out!

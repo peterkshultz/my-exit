@@ -13,6 +13,6 @@ Points of reference will include:
 + [Google Places API](https://developers.google.com/places/)
 + [Google Maps Image API](https://developers.google.com/maps/documentation/imageapis/)
 
-I'm going to try and hack together something to do this within the structure of Heroku's sample node app, which you can set up for yourself [here](https://devcenter.heroku.com/articles/getting-started-with-nodejs).
+The template for the website is from Heroku's sample node.js app, which you can find [here](https://github.com/heroku/node-js-sample)
 
 This is the first time I've ever worked on a web app--we'll see how it turns out!

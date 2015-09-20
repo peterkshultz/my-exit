@@ -1,4 +1,4 @@
-# myexit
+# my-exit
 
 **_Make New Jersey proud._**
 

@@ -35,5 +35,5 @@ app.get("/:id",function (req,res)
         res.render("index.ejs", { layout: false, lat:lat, lon:lon, zoom:zoom, geohash:req.params["id"]});
     });
  
-
+app.listen(9999);
 
